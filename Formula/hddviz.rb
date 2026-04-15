@@ -1,8 +1,8 @@
 class Hddviz < Formula
   desc "CLI tool to visualize disk usage"
   homepage "https://github.com/Toyakki/hddviz"
-  url "https://github.com/Toyakki/hddviz/releases/download/v0.1.5/hddviz_0.1.5_darwin_arm64.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/Toyakki/hddviz/releases/download/v0.1.5/hddviz_0.1.5_darwin_all.tar.gz"
+  sha256 "2afc88c360377f741766da33f55086296cec3198ed5a385ecc73425f33df42aa"
   license "GPL-3.0-only"
   version "0.1.5"
 
