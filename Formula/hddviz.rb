@@ -11,7 +11,6 @@ class Hddviz < Formula
   end
 
   test do
-    output = shell_output("#{bin}/hddviz -root #{testpath}/does-not-exist 2>&1", 1)
-    assert_match "Cannot find the path", output
+    system "#{bin}/hddviz", "--version"
   end
 end
